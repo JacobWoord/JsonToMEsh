@@ -3,7 +3,9 @@ Imports TrawlerNet in Json format and converts it to a mesh.
 
 
 
-Project Details
+<b><h3>Project Details</h3></b>
+
+
 This project documents our approach to exporting a net as a JSON format from the NetDesigner software. 
 As we continue to expand and optimize our Unity solution to handle the real-time rendering of trawl nets with more than 100k elements, 
 this repository will provide a  record of our progress and learning.
@@ -14,10 +16,13 @@ Next, we created a new mesh using Unity's Mesh object and assigned the indices a
 Please note that the MeshTopology needs to be set to lines for this process, which necessitates the use of a specific material. 
 If you find that this material isn't rendering correctly, you can modify this in the project settings by adding "Unlit/Color" under Graphics.
 
-What's Next (TODOs):
+<b><h3>What's Next (TODOs):</h3></b>
+
 While this project represents a significant step in our research to migrate a mesh to Unity, we are aware that performance optimization is paramount in achieving our end goal. 
 The current solution is effective up to 50k elements; beyond this, additional optimization will be necessary. Below are the areas of focus:
 
--Improve performance to handle meshes with more than 50k elements.
--Identify and implement optimization strategies for the real-time rendering of large-scale trawl nets.
--Develop a more efficient material rendering process.
+<b>-Improve performance to handle meshes with more than 50k elements.</b>
+
+<b>-Identify and implement optimization strategies for the real-time rendering of large-scale trawl nets.</b>
+
+<b>-Develop a more efficient material rendering process.</b>
